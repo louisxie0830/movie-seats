@@ -1,0 +1,28 @@
+:root {
+    --seat-size: 18px;
+    --seat-margin: 4px;
+    --seat-border-color: #DDDDDD;
+    --seat-selected-color: #15964E;
+    --screen-border-color: rgba(153, 153, 153, 1);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
